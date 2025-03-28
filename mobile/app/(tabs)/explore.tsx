@@ -20,27 +20,23 @@ export default function TabTwoScreen() {
         />
       }>
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">Explore</ThemedText>
+        <ThemedText type="title">Saldo disponível</ThemedText>
       </ThemedView>
-      <ThemedText>This app includes example code to help you get started.</ThemedText>
-      <Collapsible title="File-based routing">
+      <ThemedView style={styles.titleContainer}>
+        <ThemedText type="title">R$0,24</ThemedText>
+      </ThemedView>
+      <Collapsible title="Saldo separado">
         <ThemedText>
-          This app has two screens:{' '}
-          <ThemedText type="defaultSemiBold">app/(tabs)/index.tsx</ThemedText> and{' '}
-          <ThemedText type="defaultSemiBold">app/(tabs)/explore.tsx</ThemedText>
+          <ThemedText type="defaultSemiBold">R$0,00</ThemedText>
         </ThemedText>
-        <ThemedText>
-          The layout file in <ThemedText type="defaultSemiBold">app/(tabs)/_layout.tsx</ThemedText>{' '}
-          sets up the tab navigator.
-        </ThemedText>
-        <ExternalLink href="https://docs.expo.dev/router/introduction">
-          <ThemedText type="link">Learn more</ThemedText>
-        </ExternalLink>
       </Collapsible>
-      <Collapsible title="Android, iOS, and web support">
+      <Collapsible title="Tudo certo com suas contas?">
         <ThemedText>
-          You can open this project on Android, iOS, and the web. To open the web version, press{' '}
-          <ThemedText type="defaultSemiBold">w</ThemedText> in the terminal running this project.
+        <ThemedText>
+          <ThemedText type="defaultSemiBold">Nenhuma transição prevista este mês </ThemedText>
+        </ThemedText>
+          <ThemedText>Saldo disponível R$10,38</ThemedText>
+          <ThemedText>Deu certo R$0,00</ThemedText>
         </ThemedText>
       </Collapsible>
       <Collapsible title="Images">

@@ -25,58 +25,41 @@ export default function TabTwoScreen() {
       <ThemedView style={styles.titleContainer}>
         <ThemedText type="title">R$0,24</ThemedText>
       </ThemedView>
-      <Collapsible title="Saldo separado">
+      <Collapsible title="Saldo separado 🗃️">
         <ThemedText>
           <ThemedText type="defaultSemiBold">R$0,00</ThemedText>
         </ThemedText>
       </Collapsible>
-      <Collapsible title="Tudo certo com suas contas?">
+      <Collapsible title="Tudo certo com suas contas? 🧾">
         <ThemedText>
         <ThemedText>
-          <ThemedText type="defaultSemiBold">Nenhuma transição prevista este mês </ThemedText>
+          <ThemedText type="defaultSemiBold">Nenhuma transição prevista este mês <br></br></ThemedText>
         </ThemedText>
-          <ThemedText>Saldo disponível R$10,38</ThemedText>
+          <ThemedText>Saldo disponível R$10,38 <br></br></ThemedText>
           <ThemedText>Deu certo R$0,00</ThemedText>
         </ThemedText>
       </Collapsible>
-      <Collapsible title="Images">
+      <Collapsible title="Total em investimentos 💲">
         <ThemedText>
-          For static images, you can use the <ThemedText type="defaultSemiBold">@2x</ThemedText> and{' '}
-          <ThemedText type="defaultSemiBold">@3x</ThemedText> suffixes to provide files for
-          different screen densities
+           R$0,24 <br></br>    ↑ R$0,12
         </ThemedText>
-        <Image source={require('@/assets/images/react-logo.png')} style={{ alignSelf: 'center' }} />
-        <ExternalLink href="https://reactnative.dev/docs/images">
-          <ThemedText type="link">Learn more</ThemedText>
-        </ExternalLink>
       </Collapsible>
-      <Collapsible title="Custom fonts">
+      <Collapsible title="Depositar 📥">
         <ThemedText>
-          Open <ThemedText type="defaultSemiBold">app/_layout.tsx</ThemedText> to see how to load{' '}
-          <ThemedText style={{ fontFamily: 'SpaceMono' }}>
-            custom fonts such as this one.
-          </ThemedText>
+          Cobrar              Portabilidade de salário              Converter limite
         </ThemedText>
-        <ExternalLink href="https://docs.expo.dev/versions/latest/sdk/font">
-          <ThemedText type="link">Learn more</ThemedText>
-        </ExternalLink>
       </Collapsible>
-      <Collapsible title="Light and dark mode components">
+      <Collapsible title="Pagar 💸">
         <ThemedText>
-          This template has light and dark mode support. The{' '}
-          <ThemedText type="defaultSemiBold">useColorScheme()</ThemedText> hook lets you inspect
-          what the user's current color scheme is, and so you can adjust UI colors accordingly.
+          <br></br>Boleto              Pix<br></br><br></br>Assistente de Pagamentos
+          <br></br>Buscador de Boletos<br></br>Débito Automático
         </ThemedText>
-        <ExternalLink href="https://docs.expo.dev/develop/user-interface/color-themes/">
-          <ThemedText type="link">Learn more</ThemedText>
-        </ExternalLink>
       </Collapsible>
-      <Collapsible title="Animations">
+      <Collapsible title="Débito Automático ⏳">
         <ThemedText>
-          This template includes an example of an animated component. The{' '}
-          <ThemedText type="defaultSemiBold">components/HelloWave.tsx</ThemedText> component uses
-          the powerful <ThemedText type="defaultSemiBold">react-native-reanimated</ThemedText>{' '}
-          library to create a waving hand animation.
+          Você no controle de suas contas em débito automático<br></br>
+          Coloque no automático suas contas recorrentes<br></br>     Não pague juros por atraso. Cadastre vários tipos de conta, como
+               água, luz, telefone, gás      e internet.
         </ThemedText>
         {Platform.select({
           ios: (

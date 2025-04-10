@@ -2,6 +2,7 @@ import { Image, StyleSheet, Platform } from 'react-native';
 import ParallaxScrollView from '@/components/ParallaxScrollView';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
+import { BorderlessButton } from 'react-native-gesture-handler';
 
 export default function HomeScreen() {
   return (
@@ -27,6 +28,7 @@ export default function HomeScreen() {
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
         <ThemedText type="subtitle">Pagar</ThemedText>
+        <BorderlessButton></BorderlessButton>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
         <ThemedText type="subtitle">Transferir</ThemedText>

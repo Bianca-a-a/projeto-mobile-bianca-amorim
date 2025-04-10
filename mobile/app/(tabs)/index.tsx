@@ -1,8 +1,9 @@
-import { Image, StyleSheet, Platform } from 'react-native';
+import { Image, StyleSheet, Platform, Button } from 'react-native';
 import ParallaxScrollView from '@/components/ParallaxScrollView';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
 import { BorderlessButton } from 'react-native-gesture-handler';
+import { Colors } from 'react-native/Libraries/NewAppScreen';
 
 export default function HomeScreen() {
   return (
@@ -17,9 +18,12 @@ export default function HomeScreen() {
       <ThemedView style={styles.titleContainer}>
         <ThemedText type="title">NUBank</ThemedText>
       </ThemedView>
-      <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Conta</ThemedText>
-      </ThemedView>
+      <Button
+       onPress={() => {
+          console.log('You tapped the button!');
+        }}
+       title="Conta"
+      />
       <ThemedView style={styles.stepContainer}>
         <ThemedText type="subtitle">R$0,24</ThemedText>
       </ThemedView>
@@ -28,7 +32,6 @@ export default function HomeScreen() {
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
         <ThemedText type="subtitle">Pagar</ThemedText>
-        <BorderlessButton></BorderlessButton>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
         <ThemedText type="subtitle">Transferir</ThemedText>

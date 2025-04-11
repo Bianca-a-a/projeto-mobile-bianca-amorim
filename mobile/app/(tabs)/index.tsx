@@ -18,7 +18,7 @@ export default function HomeScreen() {
       <ThemedView style={styles.titleContainer}>
         <ThemedText type="title">NUBank</ThemedText>
       </ThemedView>
-      <Button
+      <Button color={'#512D78'}
        onPress={() => {
           console.log('You tapped the button!');
         }}

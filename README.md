@@ -4,7 +4,7 @@ A header é uma foto do banco "NUBank" grande, tomando todo o início da tela de
 
 A tela inicial possui a conta, dinheiro disponível, pix, pagar, transferir, depositar e cartão.
 
-![alt text](<assets/images/Banco 1.png>)
+<img src="mobile\assets\images\Banco 1.png">
 
 ### Conta
 A conta serve como um geral do usuário, tendo algumas informações pessoais básicas e etc.
@@ -35,14 +35,14 @@ Esta parte serve para ver sobre o cartão, saldo, limite, pendências e etc.
 
 O usuário pode usar para ver o estado do próprio cartão e até mesmo desativar ele caso preciso.
 
-![alt text](<assets/images/Banco 2.png>)
+<img src="mobile\assets\images\Banco 2.png">
 
 ## Saldo
 O saldo é a segunda parte do site, composto pela quantidade de saldo disponível, saldo separado, contas, investimentos, depositar, pagar e débito automático.
 
 O fundo é composto por uma cor roxa referente ao banco enquanto o fundo se mantêm preto.
 
-![alt text](<assets/images/Banco 3.png>)
+<img src="mobile\assets\images\Banco 3.png">
 
 ### Saldo disponível
 Igual a tela inicial, o saldo disponível mostra a quantidade de renda na coonta com a possibilidade de utilização.
@@ -56,7 +56,7 @@ Previsões e agentamentos para pagar as contas obrigatórias de forma automátic
 ### Total em investimentos
 O dinheiro guardado em caixinhas é investido e vai dando renda conforme o tempo passa. Nesta parte, é possível ver quanto o dinheiro rendeu pelo tempo em que ficou guardade.
 
-![alt text](<assets/images/Banco 4.png>)
+<img src="mobile\assets\images\Banco 4.png">
 
 ### Depositar
 Há três partes nessa área, cobrar, portabilidade de salário e converter limite.
@@ -73,4 +73,4 @@ O pagar serve para escolher diferentes formas de pagamento, tendo a opção entr
 ### Débito automático
 Automatiza as contas a serem pagas, impedindo que o cliente tenha juros por atraso caso esqueça de pagar alguma conta.
 
-![alt text](<assets/images/Banco 5.png>)
+<img src="mobile\assets\images\Banco 5.png">
